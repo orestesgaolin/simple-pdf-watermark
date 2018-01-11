@@ -1,0 +1,121 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:SimplePdfWatermark.Resources">
+    <DrawingImage x:Key="diagonal_layout">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V32 H30 V0 H0 Z">
+                <DrawingGroup Transform="1,0,0,1,-54.011906,-62.017857">
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="54.5119,62.5179,21,29" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M56.136205,89.895214L73.709174,64.370974">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+    <DrawingImage x:Key="grid_layout">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V32 H30 V0 H0 Z">
+                <DrawingGroup Transform="1,0,0,1,-67.202385,-69.458336">
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                        <GeometryDrawing.Geometry>
+                            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="67.7024,69.9583,21,29" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M69.449301,72.898927L74.995145,72.898927">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M78.152265,72.898927L83.698109,72.898927">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M73.608684,76.250266L79.154528,76.250266">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M82.027673,76.250266L87.573517,76.250266">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M69.449301,79.601636L74.995146,79.601636">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M78.152265,79.601636L83.698109,79.601636">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M73.608684,82.952974L79.154528,82.952974">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M82.027673,82.952974L87.573517,82.952974">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M69.449301,86.304315L74.995145,86.304315">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M78.152265,86.304315L83.698109,86.304315">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M73.608684,89.65567L79.154528,89.65567">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M82.027673,89.65567L87.573517,89.65567">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M69.449301,93.007022L74.995145,93.007022">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M78.152265,93.007022L83.698109,93.007022">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M73.608684,96.358379L79.154528,96.358379">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                    <GeometryDrawing Geometry="F1 M22,30z M0,0z M82.027673,96.358379L87.573517,96.358379">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>
